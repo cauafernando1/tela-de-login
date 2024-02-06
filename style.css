@@ -1,19 +1,23 @@
 body{
+  width: auto;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(45deg, black, gray );
-  background-size: 120% 120%;
-  background-repeat: no-repeat;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px;
+  background:rgb(41, 41, 41);
 }
-div{
-  background: rgba(255, 255, 255, 0.6);
+.containeer{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.dados{
+  background: rgba(255, 255, 255, 0.4);
+  height: 300px;
   width: 230px;
-  margin: auto;
   padding: 80px;
   border-radius: 15px;
   color: #000;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 input{ 
   background-color: rgba(255, 255, 255, 0);
